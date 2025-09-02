@@ -1,6 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Card, CardContent, CardHeader, CardTitle } from 'ui/components/card'
-import { Button } from 'ui/components/button'
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from '@workspace/ui/components/card'
+import { Button } from '@workspace/ui/components/button'
 
 export const Route = createFileRoute('/auth/register')({
   component: RouteComponent,
